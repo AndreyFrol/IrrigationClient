@@ -13,9 +13,15 @@
 		A92F37A920B4B6800073887A /* IrrigationClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A92F37A720B4B6800073887A /* IrrigationClient.xcdatamodeld */; };
 		A92F37AB20B4B6810073887A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92F37AA20B4B6810073887A /* Assets.xcassets */; };
 		A92F37AE20B4B6810073887A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92F37AC20B4B6810073887A /* LaunchScreen.storyboard */; };
+		A92F37B620B508120073887A /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F37B520B508120073887A /* GlobalVariables.swift */; };
+		A92F37B820B508FD0073887A /* MySettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = A92F37B720B508FD0073887A /* MySettings.plist */; };
+		A92F37BA20B511510073887A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F37B920B511510073887A /* LoginViewController.swift */; };
+		A92F37BC20B75B7A0073887A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F37BB20B75B7A0073887A /* TableViewController.swift */; };
+		F5EACE9510652AAE780ABED1 /* Pods_IrrigationClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6124BBCC23966DB00B3E7E3 /* Pods_IrrigationClient.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71CA242342DA949224424F43 /* Pods-IrrigationClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrrigationClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IrrigationClient/Pods-IrrigationClient.debug.xcconfig"; sourceTree = "<group>"; };
 		A92F379D20B4B6800073887A /* IrrigationClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrrigationClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92F37A020B4B6800073887A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A92F37A220B4B6800073887A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,12 @@
 		A92F37AA20B4B6810073887A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A92F37AD20B4B6810073887A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A92F37AF20B4B6810073887A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92F37B520B508120073887A /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		A92F37B720B508FD0073887A /* MySettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MySettings.plist; sourceTree = "<group>"; };
+		A92F37B920B511510073887A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A92F37BB20B75B7A0073887A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C666FAD1D493E62082E1B039 /* Pods-IrrigationClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrrigationClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-IrrigationClient/Pods-IrrigationClient.release.xcconfig"; sourceTree = "<group>"; };
+		E6124BBCC23966DB00B3E7E3 /* Pods_IrrigationClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IrrigationClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5EACE9510652AAE780ABED1 /* Pods_IrrigationClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				A92F379F20B4B6800073887A /* IrrigationClient */,
 				A92F379E20B4B6800073887A /* Products */,
+				E34D8ABC2B878F46A624EBD0 /* Pods */,
+				CD5944509C30DCACFB223820 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +73,34 @@
 			children = (
 				A92F37A020B4B6800073887A /* AppDelegate.swift */,
 				A92F37A220B4B6800073887A /* ViewController.swift */,
+				A92F37B920B511510073887A /* LoginViewController.swift */,
 				A92F37A420B4B6800073887A /* Main.storyboard */,
 				A92F37AA20B4B6810073887A /* Assets.xcassets */,
 				A92F37AC20B4B6810073887A /* LaunchScreen.storyboard */,
 				A92F37AF20B4B6810073887A /* Info.plist */,
 				A92F37A720B4B6800073887A /* IrrigationClient.xcdatamodeld */,
+				A92F37B520B508120073887A /* GlobalVariables.swift */,
+				A92F37B720B508FD0073887A /* MySettings.plist */,
+				A92F37BB20B75B7A0073887A /* TableViewController.swift */,
 			);
 			path = IrrigationClient;
+			sourceTree = "<group>";
+		};
+		CD5944509C30DCACFB223820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6124BBCC23966DB00B3E7E3 /* Pods_IrrigationClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E34D8ABC2B878F46A624EBD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71CA242342DA949224424F43 /* Pods-IrrigationClient.debug.xcconfig */,
+				C666FAD1D493E62082E1B039 /* Pods-IrrigationClient.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A92F37B220B4B6810073887A /* Build configuration list for PBXNativeTarget "IrrigationClient" */;
 			buildPhases = (
+				453854D1D58E5761D723784E /* [CP] Check Pods Manifest.lock */,
 				A92F379920B4B6800073887A /* Sources */,
 				A92F379A20B4B6800073887A /* Frameworks */,
 				A92F379B20B4B6800073887A /* Resources */,
+				BB2AD5F958E7646F1342B301 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A92F37AE20B4B6810073887A /* LaunchScreen.storyboard in Resources */,
+				A92F37B820B508FD0073887A /* MySettings.plist in Resources */,
 				A92F37AB20B4B6810073887A /* Assets.xcassets in Resources */,
 				A92F37A620B4B6800073887A /* Main.storyboard in Resources */,
 			);
@@ -133,13 +172,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		453854D1D58E5761D723784E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IrrigationClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2AD5F958E7646F1342B301 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IrrigationClient/Pods-IrrigationClient-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IrrigationClient/Pods-IrrigationClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A92F379920B4B6800073887A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A92F37A320B4B6800073887A /* ViewController.swift in Sources */,
+				A92F37BC20B75B7A0073887A /* TableViewController.swift in Sources */,
 				A92F37A920B4B6800073887A /* IrrigationClient.xcdatamodeld in Sources */,
+				A92F37B620B508120073887A /* GlobalVariables.swift in Sources */,
+				A92F37BA20B511510073887A /* LoginViewController.swift in Sources */,
 				A92F37A120B4B6800073887A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +363,7 @@
 		};
 		A92F37B320B4B6810073887A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CA242342DA949224424F43 /* Pods-IrrigationClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +382,7 @@
 		};
 		A92F37B420B4B6810073887A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C666FAD1D493E62082E1B039 /* Pods-IrrigationClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

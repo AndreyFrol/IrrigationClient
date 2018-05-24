@@ -17,6 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let myDictionaryPath = Bundle.main.path(forResource: "MySettings", ofType: "plist")
+        
+        let myDictionary = NSMutableDictionary(contentsOfFile: myDictionaryPath!)
+        let myStringDict = myDictionary as? [String:String]
+        let baseUrl = myStringDict?["BaseUrl"]
+        GlobalVariables.sharedManager.setBaseUrl(base_url: String(describing: baseUrl!))
+        print(GlobalVariables.sharedManager.getBaseUrl())
+        Thread.sleep(forTimeInterval: 1.0)
         return true
     }
 
